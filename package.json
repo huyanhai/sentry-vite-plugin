@@ -1,5 +1,5 @@
 {
-  "name": "easi-sentry-vite-plugin",
+  "name": "sentry-vite-plugin",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/infinitasx/easi-sentry-vite-plugin.git"
+    "url": "git+https://github.com/huyanhai/sentry-vite-plugin.git"
   },
   "author": "810839700@qq.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/infinitasx/easi-sentry-vite-plugin/issues"
+    "url": "https://github.com/huyanhai/sentry-vite-plugin/issues"
   },
-  "homepage": "https://github.com/infinitasx/easi-sentry-vite-plugin#readme",
+  "homepage": "https://github.com/huyanhai/sentry-vite-plugin#readme",
   "devDependencies": {
     "@babel/core": "^7.16.5",
     "@rollup/plugin-babel": "^5.3.0",

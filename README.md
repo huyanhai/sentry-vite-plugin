@@ -16,7 +16,7 @@ token =
 ```
 
 ```ts
-import sentry from "easi-sentry-vite-plugin";
+import sentry from "sentry-vite-plugin";
 import { defineConfig } from "vite";
 
 defineConfig({
