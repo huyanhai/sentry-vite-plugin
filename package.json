@@ -1,0 +1,39 @@
+{
+  "name": "easi-sentry-vite-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infinitasx/easi-sentry-vite-plugin.git"
+  },
+  "author": "810839700@qq.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/infinitasx/easi-sentry-vite-plugin/issues"
+  },
+  "homepage": "https://github.com/infinitasx/easi-sentry-vite-plugin#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@types/shelljs": "^0.8.10",
+    "esbuild": "^0.14.8",
+    "rollup": "^2.62.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-esbuild": "^4.8.1",
+    "rollup-plugin-typescript2": "^0.31.1",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "@sentry/cli": "^1.71.0",
+    "shelljs": "^0.8.4",
+    "vite": "^2.7.7"
+  }
+}
