@@ -2,7 +2,7 @@
 
 ### 具体配置同@sentry/webpack-plugin
 
-### 新增 cleanSourceMap 参数,上传完毕后参数源目录的.js.map 文件
+### 新增 cleanSourceMap 参数,上传完毕后删除源目录的.js.map 文件
 
 ```ts
 // .sentryclirc文件配置
