@@ -5,7 +5,7 @@ import SentryCli from "@sentry/cli";
 
 import { toArray, clearSourceMap } from "./utils";
 
-export default function sentry(options: TSentryOptions): Plugin {
+export default (options: TSentryOptions): Plugin => {
   const sentryPlugin: Plugin = {
     name: "sentry",
     closeBundle: async () => {
@@ -67,4 +67,4 @@ export default function sentry(options: TSentryOptions): Plugin {
     },
   };
   return sentryPlugin;
-}
+};

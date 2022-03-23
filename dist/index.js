@@ -27,7 +27,7 @@ function clearSourceMap(paths, ext) {
   }
 }
 
-function sentry(options) {
+var index = (options) => {
   const sentryPlugin = {
     name: "sentry",
     closeBundle: async () => {
@@ -86,6 +86,6 @@ function sentry(options) {
     }
   };
   return sentryPlugin;
-}
+};
 
-module.exports = sentry;
+module.exports = index;
