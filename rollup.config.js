@@ -18,9 +18,9 @@ export default [
       esbuild(),
       json(),
       babel(),
-      ts({
-        clean: true,
-      }),
+      // ts({
+      //   clean: true,
+      // }),
     ],
   },
 ];
